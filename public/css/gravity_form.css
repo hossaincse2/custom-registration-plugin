@@ -1,0 +1,23 @@
+.gform_body ul li{
+    list-style: none;
+}
+ /*.gform_wrapper .top_label li.gfield.gf_left_half, .gform_wrapper .top_label li.gfield.gf_right_half {*/
+    /*width: 49% !important;*/
+/*} */
+/*.custome_width {*/
+    /*width: 49% !important;*/
+/*}*/
+input#input_15_18 {
+    width: 580px !important;
+}
+
+.gender_input .gfield_description{
+    min-height: 57px;
+}
+/*.view_edit .edit-btn {*/
+    /*display: none;*/
+/*}*/
+.gform_preview_15_27{
+    font-weight: bold;
+    color: black;
+}

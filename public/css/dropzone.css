@@ -1,0 +1,54 @@
+/*
+ * The MIT License
+ * Copyright (c) 2012 Matias Meno <m@tias.me>
+ */
+.file_upload {
+  position: relative;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  border: 1px dashed #CCC;
+  background: rgba(0,0,0,.02);
+}
+.file_upload p{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 110px;
+  color: #736e6e;
+  font-family: Arial;
+}
+.file_upload input{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+}
+.file_upload button{
+  margin: 0;
+  color: #fff;
+  background: #16a085;
+  border: none;
+  width: 508px;
+  height: 35px;
+  margin-top: -20px;
+  margin-left: -4px;
+  border-radius: 4px;
+  border-bottom: 4px solid #117A60;
+  transition: all .2s ease;
+  outline: none;
+}
+.file_upload button:hover{
+  background: #149174;
+  color: #0C5645;
+}
+.file_upload button:active{
+  border:0;
+}
+
+
+
